@@ -1,0 +1,68 @@
+2023-03-27T22:11:44+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'WooCommerce')
+#1 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(3647): Bulk_Upgrader_Skin->after('WooCommerce')
+#2 C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-wp-upgrader.php(825): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(3267): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(3380): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(2986): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(751): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\web-ban-hang\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\web-ban-hang\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\web-ban-hang\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\web-ban-hang\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\web-ban-hang\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2023-03-27T22:15:49+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Ovic Addon Tool...')
+#1 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(3647): Bulk_Upgrader_Skin->after('Ovic Addon Tool...')
+#2 C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-wp-upgrader.php(825): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(3267): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(3380): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(2986): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(751): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\web-ban-hang\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\web-ban-hang\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\web-ban-hang\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\web-ban-hang\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\web-ban-hang\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2023-03-27T22:16:40+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Ovic: Import De...')
+#1 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(3647): Bulk_Upgrader_Skin->after('Ovic: Import De...')
+#2 C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-wp-upgrader.php(825): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(3267): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(3380): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(2986): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(751): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\web-ban-hang\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\web-ban-hang\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\web-ban-hang\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\web-ban-hang\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\web-ban-hang\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2023-03-27T22:16:54+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Ovic: Product B...')
+#1 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(3647): Bulk_Upgrader_Skin->after('Ovic: Product B...')
+#2 C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-wp-upgrader.php(825): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(3267): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(3380): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(2986): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\web-ban-hang\wp-content\themes\dukamarket\framework\classes\class-tgm-plugin-activation.php(751): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\web-ban-hang\wp-includes\class-wp-hook.php(308): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\web-ban-hang\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\web-ban-hang\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\web-ban-hang\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\web-ban-hang\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\web-ban-hang\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
